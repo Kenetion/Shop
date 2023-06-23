@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.nav {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  padding: 15px;
+  background-color: rgb(0, 0, 0);
+}
+
+.navLink {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.navLink:hover {
+  color: #f4511e;
+}
+
+.home {
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
+}
+
+.shop {
+  text-align: center;
+}
